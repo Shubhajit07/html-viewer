@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Previewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="center">Html Previewer</header>
+    <div class="container">
+        <div class="html">
+            <form action="preview.php" method="post">
+                    <span class="label center">HTML</span>
+                    <br>
+                    <textarea name="html" id="html" cols="30" rows="15" onkeyup="changeHTML(this.value)"></textarea>
+                    <br>
+                    <button type="submit">Preview On New Tab</button>
+            </form>
+        </div>
+        <div class="preview">
+            <span class="label center">PREVIEW</span>
+            <br>
+            <iframe frameborder="0"></iframe>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
