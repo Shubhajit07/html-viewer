@@ -39,7 +39,9 @@ textarea,iframe{
     background: rgba(251, 112, 33, 0.25);
     border-radius: 5px 5px 0px 0px; 
 }
-button{
+#link{
+    display: inline-block;
+    text-decoration: none;
     border-radius: 5px;
     padding: 10px;
     background: #FB7021E8;
